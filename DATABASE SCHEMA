@@ -1,0 +1,8 @@
+create database td
+
+use td
+
+create table qa(person varchar(250),participant varchar(250), question varchar(250), answer varchar(700));
+
+select * from qa;
+
