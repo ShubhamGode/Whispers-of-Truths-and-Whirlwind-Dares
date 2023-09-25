@@ -21,9 +21,7 @@ public class Truthdare {
          while(true){
         System.out.print("Playing with -> (Friend / Lover/ Computer):  ");
         partner = sc.nextLine();
-        if (partner.equalsIgnoreCase("Friend") || partner.equalsIgnoreCase("F") || partner.equalsIgnoreCase ("FRIEND") || partner.equalsIgnoreCase("friend")  
-        || partner.equalsIgnoreCase("lover") ||  partner.equalsIgnoreCase("LOVER") ||  partner.equalsIgnoreCase("L") ||  partner.equalsIgnoreCase("Lover") || 
-        partner.equalsIgnoreCase("COMPUTER") ||  partner.equalsIgnoreCase("C")||  partner.equalsIgnoreCase("computer") || partner.equalsIgnoreCase("Computer")){
+        if (partner.equalsIgnoreCase("Friend") || partner.equalsIgnoreCase("Lover") || partner.equalsIgnoreCase("Computer")){
             break;
         }
          }
